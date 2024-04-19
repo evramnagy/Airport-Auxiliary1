@@ -688,9 +688,6 @@ blockquote .quote-icon {
   background-color: #19232d !important;
 }
 
-.bg--gray {
-}
-
 .border--rounded {
   border-radius: 3px !important;
 }
@@ -956,7 +953,7 @@ blockquote .quote-icon {
   }
 }
 .blackbg {
-  background-color: ##19232d;
+  background-color: #19232d;
 }
 /*-------------------------------------------------
     [ ## slider ]
@@ -4453,7 +4450,15 @@ section {
 .footer-widget p {
   color: white;
 }
-
+.footer-p-evo {
+  width: 65rem;
+}
+@media screen and (max-width: 991px) {
+  .footer-p-evo {
+    width: 20rem;
+    padding-left: 8px;
+  }
+}
 .footer-list li {
   color: white;
   font-size: 15px;
@@ -6872,8 +6877,6 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .book-quantity .book-plus-minus .inc.qtybutton {
   right: 0px;
   top: 5px;
-}
-.containerr {
 }
 
 .cbx {
