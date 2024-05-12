@@ -288,7 +288,7 @@ blockquote .quote-icon {
 }
 
 .pt-120 {
-  padding-top: 120px;
+  /* padding-top: 120px; */
 }
 @media only screen and (max-width: 991px) {
   .pt-120 {
@@ -398,7 +398,7 @@ blockquote .quote-icon {
 }
 
 .ptb-120 {
-  padding: 120px 0;
+  padding: 50px 0;
 }
 @media only screen and (max-width: 991px) {
   .ptb-120 {
@@ -7311,6 +7311,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 .package-details .package-gallery-slider-area .gallery-slider-two {
   overflow: hidden;
   position: relative;
+  border-radius: 20px;
 }
 .package-details .package-gallery-slider-area .gallery-slider-two .slider-prev,
 .package-details .package-gallery-slider-area .gallery-slider-two .slider-next {
