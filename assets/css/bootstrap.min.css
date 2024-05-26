@@ -505,6 +505,8 @@ pre code {
 }
 @media (min-width: 1200px) {
   .container {
+    margin-top: 50px;
+
     max-width: 1140px;
   }
 }
@@ -527,8 +529,8 @@ pre code {
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: nowrap;
-  margin-right: 45px;
-  margin-left: -15px;
+  margin-right: 200px;
+  margin-left: 5px;
 }
 @media (max-width: 991px) {
   .row-evo {
