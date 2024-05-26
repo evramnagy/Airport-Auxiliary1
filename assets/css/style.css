@@ -148,7 +148,9 @@ img {
   max-width: 100%;
   height: auto;
 }
-
+.evo-img {
+  max-width: 75%;
+}
 button:focus,
 input[type="button"]:focus,
 input[type="reset"]:focus,
@@ -7993,7 +7995,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
 }
 .course-content .course-content-footer {
   padding-top: 15px;
-  border-top: 1px dashed #e5e5e5;
+  /* border-top: 1px dashed #e5e5e5; */
   margin-top: 15px;
 }
 .course-content .course-content-footer a {
