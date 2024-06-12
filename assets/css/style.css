@@ -7307,7 +7307,7 @@ div[class*="col"]:nth-of-type(4n + 4) .statistics-item::after {
   margin-right: 5px;
 }
 .package-details .package-gallery-slider-area {
-  margin-top: 60px;
+  margin-top: -80px;
 }
 .package-details .package-gallery-slider-area .title {
   font-weight: 600;
